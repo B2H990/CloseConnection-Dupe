@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.numaclient.numa.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "ClientConnectionMixin",
+    "InGameHudMixin",
+    "MinecraftClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

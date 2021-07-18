@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "modid",
+  "version": "${version}",
+  "name": "NUMA Dupe v2",
+  "description": "Allows you to dupe on all servers 1.17-1.17.1",
+  "authors": [
+    "A2H"
+  ],
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.numaclient.numa.Numa"
+    ]
+  },
+  "mixins": [
+    "numa.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  }
+}
