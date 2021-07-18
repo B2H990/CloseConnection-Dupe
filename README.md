@@ -1,4 +1,4 @@
-# CloseConnection Dupe (1,12.2-1.17.1)
+# CloseConnection Dupe (1.12.2-1.17.1)
 Allows you to duplicate items via the server kicking you. (Credits to TheTroll2001)
 
 # Usage
